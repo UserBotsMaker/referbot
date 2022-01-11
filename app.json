@@ -1,0 +1,31 @@
+{
+    "name": "Refer and Earn Python Telegram BoT",
+    "description": "A Refer and Earn telegram bot.",
+    "repository": "https://github.com/fadilniju",
+    "keywords": [
+       
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+    "env": {
+        "CUR": {
+            "description": "Your Bot currency"
+        },
+    "env": {
+        "PAY": {
+            "description": "Your Bot payment channel"
+        },
+"env": {
+        "CHANNEL": {
+            "description": "JOIN SYSTEM  bot"
+        },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
